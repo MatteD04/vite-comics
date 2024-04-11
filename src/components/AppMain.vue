@@ -5,6 +5,14 @@
 </script>
 
 <template>
+    <div class="content">
+        <div class="container">
+            <div class="header-content">
+                <h1>CONTENUTO 〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
+            </div>
+        </div>
+    </div>
+
     <div class="main-options">
        <div class="card">
         <div><img src="../assets/img/buy-comics-digital-comics.png"></div>
@@ -40,6 +48,14 @@
 </template>
 
 <style>
+.content{
+    background-color: black;
+}
+.header-content{
+    padding: 40px 0;
+    color: white;
+}
+
 .main-options{
     display: flex;
     gap: 50px;

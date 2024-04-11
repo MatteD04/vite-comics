@@ -27,13 +27,6 @@
         </div>
     </div>
 
-    <div class="content">
-        <div class="container">
-            <div class="header-content">
-                <h1>CONTENUTO 〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
-            </div>
-        </div>
-    </div>
 </template>
 
 <style scoped lang="scss">
@@ -53,13 +46,5 @@
         text-decoration: none;
         color: black;
     }
-}
-
-.content{
-    background-color: black;
-}
-.header-content{
-    padding: 40px 0;
-    color: white;
 }
 </style>
