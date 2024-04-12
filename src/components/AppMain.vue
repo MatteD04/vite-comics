@@ -17,31 +17,31 @@
        <div class="card">
         <div><img src="../assets/img/buy-comics-digital-comics.png"></div>
         <div>
-            <h3>DIGITAL COMICS</h3>
+            <h4>DIGITAL COMICS</h4>
         </div>
        </div>
        <div class="card">
         <div><img src="../assets/img/buy-comics-merchandise.png"></div>
         <div>
-            <h3>DC MERCHANDISE</h3>
+            <h4>DC MERCHANDISE</h4>
         </div>
        </div>
        <div class="card">
         <div><img src="../assets/img/buy-comics-shop-locator.png"></div>
         <div>
-            <h3>SUBSCRIPTION</h3>
+            <h4>SUBSCRIPTION</h4>
         </div>
        </div>
        <div class="card">
         <div><img src="../assets/img/buy-comics-subscriptions.png"></div>
         <div>
-            <h3>COMIC SHOP LOCATOR</h3>
+            <h4>COMIC SHOP LOCATOR</h4>
         </div>
        </div>
        <div class="card">
         <div><img src="../assets/img/buy-dc-power-visa.svg"></div>
         <div>
-            <h3>DC POWER VISA</h3>
+            <h4>DC POWER VISA</h4>
         </div>
        </div>
     </div>
@@ -65,9 +65,11 @@
 .card{
     display: flex;
     align-items: center;
-
+    margin: 50px 0;
+    gap: 10px;
+    color: white;
     img{
-        font-size: 30px;
+        width: 50px;
     }
 }
 </style>
