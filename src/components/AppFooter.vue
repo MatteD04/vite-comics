@@ -8,35 +8,38 @@
     <div class="bg-footer">
         <div class="container">
             <div class="content-footer">
-                <div>
-                    <h1>contenuto</h1>
-                </div>
-            
-                <div class="assets-footer">
-                    <img src="../assets/img/dc-logo-bg.png">"
-                </div>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
+                <h1>contenuto</h1>
             </div>
         </div>
     </div>
     
     <div class="bg-last-footer">
-        <div class="container">
-            <div>
+        <div class="container footer-info">
+            <div class="sign-up">
                 <button>SIGN-UP NOW</button>
             </div>
-            <div>
-
+            <div class="follow-us">
+                <h3>FOLLOW US</h3>
+                <div class="social">
+                    <img src="../assets/img/footer-facebook.png">
+                    <img src="../assets/img/footer-twitter.png">
+                    <img src="../assets/img/footer-youtube.png">
+                    <img src="../assets/img/footer-pinterest.png">
+                    <img src="../assets/img/footer-periscope.png">
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped lang="scss">
-.content-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .assets-footer{
     img{
         width: 50%;
@@ -45,10 +48,46 @@
 }
 .bg-footer{
     background-image: url('../assets/img/footer-bg.jpg');
-    max-height: 300px;
+    min-height: 300px;
+    .container{
+        background-image: url('../assets/img/dc-logo-bg.png');
+        background-position: 100%;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: white;
+    }
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+.follow-us{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    h3{
+        color: rgb(0, 129, 199);
+    }
+}
+.social{
+    display: flex;
+    gap: 20px;
 }
 
 .bg-last-footer{
     background-color: rgb(49, 49, 49);
+    padding: 20px 0;
+}
+.sign-up{
+    button{
+        background-color: transparent;
+        padding: 10px;
+        color: white;
+        border: 2px solid rgb(0, 129, 199);
+        cursor: pointer;
+    }
 }
 </style>
