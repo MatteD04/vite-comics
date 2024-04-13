@@ -62,6 +62,7 @@
 .footer-info{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 .follow-us{
     display: flex;

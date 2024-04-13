@@ -46,5 +46,8 @@
         text-decoration: none;
         color: black;
     }
+    .active{
+        color: rgb(0, 129, 199);
+    }
 }
 </style>
